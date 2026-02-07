@@ -1,0 +1,28 @@
+[project]
+name = "viz-mcp-example"
+authors = [
+    { name = "Windsor Nguyen", email = "oss@dedaluslabs.ai" }
+]
+description = "Minimal MCP server example that renders visuals for vision LLMs."
+version = "0.0.1"
+license = { file = "LICENSE" }
+keywords = ["dedalus", "mcp", "example"]
+classifiers = [
+    "Framework :: Dedalus MCP",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "dedalus-mcp>=0.7.0",
+    "dedalus-labs>=0.2.0",
+    "redis",
+    "matplotlib",
+    "python-dotenv",
+]
